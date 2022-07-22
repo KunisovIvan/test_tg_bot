@@ -1,0 +1,214 @@
+2022-07-22 10:04:54,814 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:05:00,071 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722871, 'message': {'message_id': 251, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484300, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2022-07-22 10:05:00,074 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-22 10:05:00,484 urllib3.connectionpool DEBUG    https://api.telegram.org:443 "POST /bot5564372482:AAEY2tcy0GbdcmVNLnl7QJzG1MfH9V89ekk/sendMessage HTTP/1.1" 200 368
+2022-07-22 10:07:47,585 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722872, 'message': {'message_id': 253, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484467, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2022-07-22 10:07:47,587 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-22 10:07:47,994 urllib3.connectionpool DEBUG    https://api.telegram.org:443 "POST /bot5564372482:AAEY2tcy0GbdcmVNLnl7QJzG1MfH9V89ekk/sendMessage HTTP/1.1" 200 368
+2022-07-22 10:07:50,753 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722873, 'message': {'message_id': 255, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484470, 'reply_to_message': {'message_id': 254, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484467, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:09:12,583 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py changed, reloading.
+2022-07-22 10:09:12,883 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:10:49,348 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py changed, reloading.
+2022-07-22 10:10:49,650 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:12:33,229 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py changed, reloading.
+2022-07-22 10:12:33,511 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:12:41,741 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:12:42,064 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:12:51,266 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:12:51,531 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:12:55,086 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722874, 'message': {'message_id': 256, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484775, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2022-07-22 10:12:55,090 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-22 10:12:55,490 urllib3.connectionpool DEBUG    https://api.telegram.org:443 "POST /bot5564372482:AAEY2tcy0GbdcmVNLnl7QJzG1MfH9V89ekk/sendMessage HTTP/1.1" 200 368
+2022-07-22 10:13:24,368 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722875, 'message': {'message_id': 258, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484804, 'reply_to_message': {'message_id': 257, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484775, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:15:08,626 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py changed, reloading.
+2022-07-22 10:15:08,909 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:16:54,514 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/tg_bot.py changed, reloading.
+2022-07-22 10:16:54,798 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:17:02,901 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722876, 'message': {'message_id': 259, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485022, 'reply_to_message': {'message_id': 257, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658484775, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:18:52,615 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:18:52,914 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:19:45,774 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:19:46,050 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:20:08,476 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:20:08,760 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:20:11,508 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722877, 'message': {'message_id': 260, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2022-07-22 10:20:11,511 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-22 10:20:11,912 urllib3.connectionpool DEBUG    https://api.telegram.org:443 "POST /bot5564372482:AAEY2tcy0GbdcmVNLnl7QJzG1MfH9V89ekk/sendMessage HTTP/1.1" 200 368
+2022-07-22 10:20:15,207 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722878, 'message': {'message_id': 262, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485215, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:20:15,209 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:20:15,701 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:20:15,751 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py", line 27, in post
+    send_phone_to_nova(bot.contact['phone_number'], bot.username)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py", line 18, in send_phone_to_nova
+    print('---------------------------------', res.json())
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-07-22 10:20:16,223 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722878, 'message': {'message_id': 262, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485215, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:20:16,226 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:20:16,462 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:20:16,491 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py", line 27, in post
+    send_phone_to_nova(bot.contact['phone_number'], bot.username)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py", line 18, in send_phone_to_nova
+    print('---------------------------------', res.json())
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-07-22 10:20:18,623 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722878, 'message': {'message_id': 262, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485215, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:20:18,626 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:20:19,815 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:20:19,846 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py", line 27, in post
+    send_phone_to_nova(bot.contact['phone_number'], bot.username)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py", line 18, in send_phone_to_nova
+    print('---------------------------------', res.json())
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-07-22 10:20:24,102 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722878, 'message': {'message_id': 262, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485215, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:20:24,104 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:20:24,612 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:20:24,641 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/tg_bot/views.py", line 27, in post
+    send_phone_to_nova(bot.contact['phone_number'], bot.username)
+  File "/home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py", line 18, in send_phone_to_nova
+    print('---------------------------------', res.json())
+  File "/home/ivan/Project/test_tg_bot/venv/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-07-22 10:21:04,309 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:21:21,393 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722878, 'message': {'message_id': 262, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485215, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:21:21,396 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:21:21,847 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:21:21,954 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722879, 'message': {'message_id': 263, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485271, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2022-07-22 10:21:21,956 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-22 10:21:22,362 urllib3.connectionpool DEBUG    https://api.telegram.org:443 "POST /bot5564372482:AAEY2tcy0GbdcmVNLnl7QJzG1MfH9V89ekk/sendMessage HTTP/1.1" 200 368
+2022-07-22 10:21:22,468 tg_bot.views INFO     view: IndexView, method: post, req: {'update_id': 535722880, 'message': {'message_id': 264, 'from': {'id': 685802132, 'is_bot': False, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'language_code': 'ru'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485277, 'reply_to_message': {'message_id': 261, 'from': {'id': 5564372482, 'is_bot': True, 'first_name': 'test_phone_tg_bot', 'username': 'test_phone_tg_bot'}, 'chat': {'id': 685802132, 'first_name': 'Ivan', 'last_name': 'Kunisov', 'username': 'Kunisov', 'type': 'private'}, 'date': 1658485211, 'text': 'Привет, а дай номер'}, 'contact': {'phone_number': '+79588563366', 'first_name': 'Ivan', 'last_name': 'Kunisov', 'user_id': 685802132}}}
+2022-07-22 10:21:22,470 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): s1-nova.ru:443
+2022-07-22 10:21:23,082 urllib3.connectionpool DEBUG    https://s1-nova.ru:443 "POST /app/private_test_python/ HTTP/1.1" 200 0
+2022-07-22 10:22:49,966 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/utils.py changed, reloading.
+2022-07-22 10:22:50,267 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-22 10:44:41,810 django.utils.autoreload INFO     /home/ivan/Project/test_tg_bot/test_tg_bot/test_tg_bot/settings.py changed, reloading.
+2022-07-22 10:44:42,108 django.utils.autoreload INFO     Watching for file changes with StatReloader
