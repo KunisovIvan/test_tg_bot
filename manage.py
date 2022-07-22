@@ -3,8 +3,6 @@
 import os
 import sys
 
-from test_tg_bot.tg_bot import TgBot
-
 
 def main():
     """Run administrative tasks."""

@@ -4,7 +4,7 @@ from rest_framework.request import Request
 from rest_framework.views import APIView, Response
 
 from test_tg_bot import settings
-from test_tg_bot.tg_bot import TgBot
+from tg_bot.tg_bot import TgBot
 from tg_bot.utils import send_phone_to_nova
 
 log = logging.getLogger(__name__)
